@@ -18,9 +18,16 @@ bundle exec rails s
 the two routes that disply the functinoality (without logging in) are : 
 http://127.0.0.1:5173/student
 
+- to view a different coach, click on the coach name up top
+- to book a meeting, click one with "name:" 
+
 and
 
 http://127.0.0.1:5173/coach
+- click on any "Free" interval to open a meeting
+- click on any past meeting to view a review
+- click on a past meeting to create a review
+
 
 
 # React + TypeScript + Vite
