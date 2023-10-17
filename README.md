@@ -1,3 +1,28 @@
+# Setup Steps
+install pnpm
+https://pnpm.io/installation
+
+
+```
+pnpm install
+pnpm run dev
+```
+
+```
+bundle install
+bundle exec rake db:migrate
+bundle exec rake db:seed
+bundle exec rails s
+```
+
+the two routes that disply the functinoality (without logging in) are : 
+http://127.0.0.1:5173/student
+
+and
+
+http://127.0.0.1:5173/coach
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -25,20 +50,3 @@ If you are developing a production application, we recommend updating the config
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-
-
-install pnpm
-https://pnpm.io/installation
-
-
-```
-pnpm install
-pnpm run dev
-```
-
-```
-bundle install
-bundle exec rake db:migrate
-bundle exec rake db:seed
-bundle exec rails s
-```
